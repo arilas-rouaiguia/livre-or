@@ -33,7 +33,7 @@
             <form method="post" class="form_edit" action="inscription.php">
 
                 <label for="identifiant">Identifiant</label>
-                <input type="text" id="identifiant" name="identifiant" placeholder="Dupont" required>
+                <input type="text" id="identifiant" name="identifiant" placeholder="login" required>
 
                 <label for="password">Mot de passe</label>
                 <input type="password" id="password" name="password" placeholder="*******" required>
