@@ -29,7 +29,9 @@ session_start();
         </ul>
     </header>
     <main>
+	<div class="identifiants">
         <H1>Modifie tes identifiants</H1>
+	</div>
         <section class="section_profil">
 
             <form method="post" action="" class="form_edit">
@@ -105,7 +107,7 @@ session_start();
             <li><a href="inscription.php">Inscription</a>
             <li><a href="connexion.php">Connexion</a>
         </ul>
-        </footer>  
+        </footer> 
         HTML;
     }
     ?>

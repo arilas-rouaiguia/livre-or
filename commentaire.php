@@ -31,7 +31,7 @@ session_start();
         <section class="section_form_commentaire">
     <form action="" method="post" class="form_edit">
         <label for="commentaire">Commentaire</label>
-        <textarea rows="15" cols="70" name="commentaire" id="text-commentaire" placeholder="Oulala rien ne va plus je pete un boulon"></textarea>
+        <textarea rows="15" cols="70" name="commentaire" id="text-commentaire" placeholder="Marquez ici vôtre commentaire :)"></textarea>
         <input type="submit" name="submit" value="Poster">
     </form>
         </section>
@@ -76,12 +76,12 @@ if (isset($_SESSION['isconnected']) && $_SESSION['isconnected'] === true) {
     }
 } else {
     echo <<<HTML
-    <footer>
-    <ul id="menu-deroulant" class="foot">
-        <li><a href="inscription.php">Inscription</a>
-        <li><a href="connexion.php">Connexion</a>
-    </ul>
-    </footer>  
+        <footer>
+        <ul id="menu-deroulant" class="foot">
+            <li><a href="inscription.php">Inscription</a>
+            <li><a href="connexion.php">Connexion</a>
+        </ul>
+        </footer> 
     HTML;
 }
 ?>

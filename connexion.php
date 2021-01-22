@@ -72,12 +72,12 @@
         ?>
         </div>
     </main>
-    <footer>
+        <footer>
         <ul id="menu-deroulant" class="foot">
             <li><a href="inscription.php">Inscription</a>
             <li><a href="connexion.php">Connexion</a>
         </ul>
-    </footer>
+        </footer> 
 </body>
 
 <?php

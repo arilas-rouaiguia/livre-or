@@ -101,12 +101,12 @@ $nbr_ligne = mysqli_num_rows(mysqli_query($bdd,"SELECT * FROM utilisateurs")); /
 ?>
         </div>
     </main>
-    <footer>
+        <footer>
         <ul id="menu-deroulant" class="foot">
             <li><a href="inscription.php">Inscription</a>
             <li><a href="connexion.php">Connexion</a>
         </ul>
-    </footer>
+        </footer> 
 </body>
 
 
